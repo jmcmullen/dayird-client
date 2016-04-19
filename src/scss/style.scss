@@ -1,0 +1,14 @@
+@import 'settings';
+@import 'views/_toolbar';
+
+html, body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+
+}

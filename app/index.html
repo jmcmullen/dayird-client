@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp"></html>
+<head>
+  <title>Dayird</title>
+  <script src="assets/libs/angular.js"></script>
+  <script src="assets/libs/angular-ui-router.js"></script>
+  <script src="assets/libs/angular-facebook.js"></script>
+  <script src="assets/js/bundle.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div ng-controller="toolbarCtrl" class="toolbar"><img src="assets/img/dayird-logo.png" class="logo">
+      <nav class="nav-main">
+        <div ng-repeat="item in navItems" ng-click="go(item.state)" class="nav-item"><i class="material-icons">{{item.icon}}</i></div>
+      </nav>
+    </div>
+  </header>
+  <div ng-view class="content"></div>
+</body>

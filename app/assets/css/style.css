@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+header {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #dedede; }
+  header .toolbar {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto; }
+  header .logo {
+    cursor: pointer;
+    width: 150px; }
+  header .nav-main {
+    float: right;
+    margin-top: 25px; }
+    header .nav-main .nav-item {
+      cursor: pointer;
+      display: inline;
+      padding: 10px; }
+      header .nav-main .nav-item .material-icons {
+        color: #878787;
+        font-size: 28px !important; }
+
+html, body {
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto; }

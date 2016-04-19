@@ -1,0 +1,5 @@
+header
+  .toolbar(ng-controller="toolbarCtrl")
+    img.logo(src="assets/img/dayird-logo.png")
+    nav.nav-main
+      .nav-item(ng-repeat="item in navItems", ng-click="go(item.state)"): i.material-icons {{item.icon}}

@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="myApp")
+head
+  title Dayird
+  script(src="assets/libs/angular.js")
+  script(src="assets/libs/angular-ui-router.js")
+  script(src="assets/libs/angular-facebook.js")
+  script(src="assets/js/bundle.js")
+  link(href="assets/css/style.css", rel="stylesheet")
+
+  
+body
+  include views/toolbar.jade
+  .content(ng-view)
+  

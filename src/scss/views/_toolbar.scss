@@ -1,0 +1,27 @@
+header {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid $color-grey;
+  .toolbar {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .logo {
+    cursor: pointer;
+    width: 150px;
+  }
+  .nav-main {
+    float: right;
+    margin-top: 25px;
+    .nav-item {
+      cursor: pointer;
+      display: inline;
+      padding: 10px;
+      .material-icons {
+        color: $color-primary;
+        font-size: 28px !important;
+      }
+    }
+  }
+}
